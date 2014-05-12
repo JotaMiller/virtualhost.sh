@@ -30,7 +30,7 @@ then
     echo -n "Ingrese su nombre de usuario: "
     read USER
     if [ -d /home/$USER ]; then
-      RUTA="/home/$USER/"
+      RUTA="/home/$USER/public_html/"
       break
     else
       echo "$USER no es un nombre de usuario válido"
